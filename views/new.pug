@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content 
+    form(action="/", method="post") 
+        label(for="name") Name=
+        input(type="text", name="name") 
+        button(type="submit") Enviar 
